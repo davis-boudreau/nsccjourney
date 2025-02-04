@@ -1,3 +1,5 @@
+Environment variables for MYSQL_DATABASE
+
 MYSQL_ROOT_PASSWORD=3P7JDW2$
 MYSQL_DATABASE=stn 
 MYSQL_USER=api 
