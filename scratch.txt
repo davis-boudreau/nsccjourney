@@ -1,0 +1,43 @@
+MYSQL_ROOT_PASSWORD=3P7JDW2$
+MYSQL_DATABASE=stn 
+MYSQL_USER=api 
+MYSQL_PASSWORD=3P7JDW2$
+
+/var/lib/mysql
+
+bash
+
+pip install virtualenv
+virtualenv journey
+source journey/Scripts/activate
+pip install django 
+pip install djangorestframework
+pip install djangorestframework-simplejwt 
+pip install django-allauth 
+pip install twilio 
+pip install django-cors-headers
+pip install pysql
+pip install cryptography
+django-admin startproject journey .
+python manage.py startapp nsccjourney
+
+
+Create a detailed step by step guide to, including setting up a virtual environment, install all packages and frameworks and starting a modern Django api server project.
+The project directory is STN (student transit network)
+
+A Django based API server with authentication call journey
+- authentication for API access
+- Two-Factor Authentication via Twilio SMS
+- Secure endpoints with authentication
+- API endpoints for registration and protected access
+- extended user, login, registration, setup classes
+
+A separate app (Django Project) using API calls javascript/css/html (client)
+- A login page with 2FA support via API (no logged in)
+- A registration page with code
+- A protected home page with code with a logged in view and a logged out view (a hero page and navigation, footer)
+
+
+
+
+
